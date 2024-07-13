@@ -104,15 +104,14 @@ body, html {
     } */
 }
 
-.link-social {
+.link-social { 
     margin-top: 50px;
     color: white;
 
-    a {
-        flex: 1;  
-        outline-color: transparent;
+    a {  
         text-decoration: none;
         color: white;
+        font-weight: bold;
     }
 }
 
