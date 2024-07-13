@@ -1,0 +1,70 @@
+:root {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica, Arial, sans-serif;
+}
+
+*,
+::after,
+::before {
+    font-family: inherit;
+}
+
+body, html {
+    background-color: #242629;
+}
+
+.panel {
+    max-width: 30%;
+    margin: 15% auto;
+    text-align: center;
+}
+
+.author {
+    .avatar {
+        width: 30%;
+        border-radius: 50%;
+        vertical-align: middle;
+        filter: drop-shadow(rgb(0, 0, 0.5) 0px 0px 5px);
+    }
+
+    .link-homepage {
+        color: white;
+        text-decoration: none;
+        font-size: 40px;
+    }
+}
+
+.avatar-subtitle {
+    color: #ccc;
+    
+}
+
+.link-site {
+    display: flex;
+    gap: 0.625%;
+    margin-top : 50px;
+
+    a {
+        flex: 1;
+        text-decoration: none;
+        outline-color: transparent;
+        text-align: center;
+        line-height: 3;
+        color: white;
+        border: 3px solid #FF6699;
+        margin-left: 5px;
+      }
+    /* a:link {
+        background-color: #FF6699;
+    } */
+}
+
+.footer {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+
+    .footer-link {
+        color: white;
+        text-decoration: none;
+    }
+}
